@@ -1,0 +1,32 @@
+uuid: f02b4ef8-e0ae-4e6e-9043-88acd344b4d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.mtype.field_catdate
+    - taxonomy.vocabulary.mtype
+  module:
+    - datetime
+    - text
+id: taxonomy_term.mtype.default
+targetEntityType: taxonomy_term
+bundle: mtype
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_catdate:
+    weight: 1
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+hidden: {  }

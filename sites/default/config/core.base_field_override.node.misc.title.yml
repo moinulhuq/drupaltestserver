@@ -1,0 +1,18 @@
+uuid: 642a3502-6eb3-474c-8859-bf43fda25aea
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.misc
+id: node.misc.title
+field_name: title
+entity_type: node
+bundle: misc
+label: 'Miscellaneous Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

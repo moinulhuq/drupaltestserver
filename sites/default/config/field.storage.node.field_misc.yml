@@ -1,0 +1,19 @@
+uuid: 84c02536-9e2a-4ee1-ace5-5a6c47ff0aa0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_misc
+field_name: field_misc
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

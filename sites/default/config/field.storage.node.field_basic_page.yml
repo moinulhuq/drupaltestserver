@@ -1,0 +1,19 @@
+uuid: 68c988dd-c944-466c-9e24-49fb1d7ef494
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_basic_page
+field_name: field_basic_page
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

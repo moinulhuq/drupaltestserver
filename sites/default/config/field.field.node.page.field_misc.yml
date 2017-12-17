@@ -1,0 +1,28 @@
+uuid: 61ec3d2e-e04e-4b47-bcc4-e76c1eb06a4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_misc
+    - node.type.misc
+    - node.type.page
+id: node.page.field_misc
+field_name: field_misc
+entity_type: node
+bundle: page
+label: Misc
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      misc: misc
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

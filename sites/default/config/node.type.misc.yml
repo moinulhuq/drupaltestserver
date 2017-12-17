@@ -1,0 +1,17 @@
+uuid: 1f64eaba-9d6e-4351-ba6d-4699af087271
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Misc
+type: misc
+description: Miscellaneous
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

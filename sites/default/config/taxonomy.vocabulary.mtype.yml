@@ -1,0 +1,9 @@
+uuid: 2389ce93-c64c-407b-ad08-da1b227bdc4d
+langcode: en
+status: true
+dependencies: {  }
+name: Mtype
+vid: mtype
+description: 'This is miscellaneous type.'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,20 @@
+uuid: c10e25e9-d45e-4e00-ac44-37df52724dca
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - taxonomy
+id: taxonomy_term.field_catdate
+field_name: field_catdate
+entity_type: taxonomy_term
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

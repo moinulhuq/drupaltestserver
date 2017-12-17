@@ -1,0 +1,10 @@
+uuid: 4827f497-ca4f-42b0-ad07-264d05150ecf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.hi_hi
+label: 'hi hi'
+targetEntityType: node
+cache: true

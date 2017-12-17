@@ -1,0 +1,14 @@
+uuid: 03706039-3c59-4f0e-a2f5-c3a95e0b5eda
+name: UniService
+mail: moinulhuq@gmail.com
+slogan: 'Where education matter!'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
