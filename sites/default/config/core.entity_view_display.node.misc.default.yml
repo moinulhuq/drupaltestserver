@@ -6,7 +6,6 @@ dependencies:
     - field.field.node.misc.body
     - field.field.node.misc.field_basic_page
     - field.field.node.misc.field_category
-    - field.field.node.misc.field_gender
     - node.type.misc
   module:
     - text
@@ -38,16 +37,6 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
-    region: content
-  field_gender:
-    weight: 104
-    label: above
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
-    third_party_settings: {  }
-    type: boolean
     region: content
   links:
     weight: 100
